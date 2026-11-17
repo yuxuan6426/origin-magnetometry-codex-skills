@@ -1,0 +1,29 @@
+[
+  {
+    "case": "synthetic",
+    "file": "cases/synthetic/input/measurement.dat",
+    "sha256": "04eb4c13a20c3789a4caaec9aec8c761c6c80adea4f06c079b954e70350eefe5",
+    "bytes": 1296,
+    "mass_mg": 2.0,
+    "origin": "generated teaching data",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "case": "real-0p5mg",
+    "file": "cases/real-0p5mg/input/measurement.dat",
+    "sha256": "72933e0ab0b11e8672afce503fc72a7290a60d6145141df30e70d2af4fee7240",
+    "bytes": 869758,
+    "mass_mg": 0.5,
+    "origin": "user-authorized measurement",
+    "license": "CC-BY-4.0"
+  },
+  {
+    "case": "real-24mg",
+    "file": "cases/real-24mg/input/measurement.dat",
+    "sha256": "47618bab56b31c936b25489918e03737a6cc462243622706a4b16132c28c2e06",
+    "bytes": 2012341,
+    "mass_mg": 24.0,
+    "origin": "user-authorized measurement",
+    "license": "CC-BY-4.0"
+  }
+]

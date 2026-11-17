@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "findings": [
+    {
+      "file": "references/processing.md",
+      "line": 36,
+      "type": "absolute_path",
+      "evidence": "static"
+    },
+    {
+      "file": "references/processing.md",
+      "line": 37,
+      "type": "absolute_path",
+      "evidence": "static"
+    },
+    {
+      "file": "references/processing.md",
+      "line": 38,
+      "type": "absolute_path",
+      "evidence": "static"
+    },
+    {
+      "file": "scripts/mpms_export.py",
+      "line": 148,
+      "type": "absolute_path",
+      "evidence": "static"
+    }
+  ],
+  "coverage": "heuristic; review dynamic dependencies and external resources",
+  "executed": false
+}

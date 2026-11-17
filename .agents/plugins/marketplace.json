@@ -1,0 +1,12 @@
+{
+  "name": "origin-magnetometry-codex",
+  "interface": { "displayName": "Origin Magnetometry Codex Skills" },
+  "plugins": [
+    {
+      "name": "origin-magnetometry-codex-skills",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

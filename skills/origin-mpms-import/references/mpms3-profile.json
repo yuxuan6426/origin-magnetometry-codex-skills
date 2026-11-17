@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "dc_moment_source": "fixed",
+  "temperature_tolerance_K": 0.5,
+  "field_tolerance_Oe": 5.0,
+  "normalization": "moment_emu / sample_mass_mg * 1000",
+  "provenance": "Reference OPJU numeric readback: VSM Moment; DC Moment Fixed Ctr; normalized by 0.5 mg. Matched 0.5mg rows 1-888 and 48-70K DC series, with reference-label and field-copy discrepancies recorded separately."
+}

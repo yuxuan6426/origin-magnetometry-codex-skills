@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "method": "Native rebuild in a new neutral path; no binary patching; all original source package locations hidden during subsequent relocated readback.",
+  "files": [
+    {
+      "file": "cases/real-0p5mg/expected/origin_result.opju",
+      "sha256": "e7783f9cceb130d93f33ad31577be678d2ff848ed5aa0f9f3813109c2603a9d3",
+      "author_path_matches": 0
+    },
+    {
+      "file": "cases/real-24mg/expected/origin_result.opju",
+      "sha256": "02fd8f25bb73d6aee59cc699dc3c8c74f0726939a11ac940c138be2bf108bb4d",
+      "author_path_matches": 0
+    },
+    {
+      "file": "cases/synthetic/expected/origin_result.opju",
+      "sha256": "abf5091147ae307153d27c2b84d3a7d8dede3a473be8b5adec73d1f98bdb4191",
+      "author_path_matches": 0
+    }
+  ]
+}

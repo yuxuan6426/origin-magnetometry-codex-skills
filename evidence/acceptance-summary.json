@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-11-18T07:21:38.878348+08:00",
+  "host": "Codex Desktop",
+  "model": "unknown",
+  "os": "Windows-11-10.0.26300-SP0",
+  "python": "3.13.9",
+  "origin_version_observed": "2026 / 10.30018",
+  "fresh_cases": [
+    {
+      "id": "synthetic",
+      "records": 41,
+      "segments": 3,
+      "graphs": 5,
+      "png": 5,
+      "pdf": 5
+    },
+    {
+      "id": "real-0p5mg",
+      "records": 1809,
+      "segments": 27,
+      "graphs": 30,
+      "png": 30,
+      "pdf": 30
+    },
+    {
+      "id": "real-24mg",
+      "records": 4242,
+      "segments": 32,
+      "graphs": 37,
+      "png": 37,
+      "pdf": 37
+    }
+  ],
+  "checks": {
+    "new_repository_environment": "passed",
+    "upstream_blob_integrity": "passed",
+    "conversion_independent_all_saved_values": "passed",
+    "native_save_reopen_all_readback": "passed",
+    "all_png_decode_all_pdf_single_page": "passed",
+    "raw_native_mode": "passed",
+    "existing_origin_pid_and_15_window_titles": "unchanged",
+    "owned_instances_cleanup": "passed",
+    "unittest": "5 passed",
+    "pip_check": "passed",
+    "teaching_dat_regeneration": "byte_identical",
+    "bootstrap": "passed",
+    "neutral_path_full_native_rebuild": "passed",
+    "relocated_embedded_projects_original_sources_unavailable": "3 projects passed",
+    "author_path_metadata_scan": "zero matches in all 3 OPJU",
+    "explicit_owned_endpoint_and_cleanup": "passed; 5 unit tests and final synthetic native run"
+  },
+  "not_yet_verified": [
+    "GitHub hosted CI",
+    "independent device",
+    "clean operating system",
+    "Origin 2018-2025",
+    "native UI recording"
+  ],
+  "execution_environment": "New repository-local environment; the same pinned interpreter was reused while the complete source tree was copied to a new neutral directory and rerun on the same machine."
+}

@@ -1,0 +1,86 @@
+﻿// MPMS data import and MT/MH plots. Origin 2018+ design target.
+[Main]
+string mpmsRoot$;
+dlgPath path:=mpmsRoot$ title:="Select the extracted MPMS data package folder";
+if(mpmsRoot.GetLength()==0) { type "Folder selection cancelled."; break 1; }
+run.section("%(mpmsRoot$)\import_and_plot.ogs", Import);
+
+[Import]
+type "Starting MPMS import...";
+if(@V<9.5) { type "Origin 2018 or newer is required by this script. CSV files can be imported manually."; break 1; }
+int mpmsPageCount=0;
+doc -e P { mpmsPageCount++; }
+if(mpmsPageCount>0) { type "Please open an empty Origin project, then run the script again."; break 1; }
+string mpmsTarget$="%(mpmsRoot$)/origin_result.opju";
+if(mpmsTarget.IsFile()) { type "origin_result.opju already exists. Choose a fresh package folder or rename the existing result."; break 1; }
+newbook name:=MPMSData sheet:=3 option:=lsname;
+win -a MPMSData;
+page.active=1;
+layer.name$="C001";
+impASC fname:="%(mpmsRoot$)/csv/C001.csv" options.ImpMode:=0 options.Names.AutoNames:=0 options.Names.FNameToBk:=0 options.Names.FNameToSht:=0 options.Sparklines:=0;
+layer.name$="C001";
+if(wks.nCols!=4) { type "Import failed for C001. Check the selected package folder."; break 1; }
+wks.col1.lname$="Temperature"; wks.col1.unit$="K";
+wks.col2.lname$="Magnetic Field"; wks.col2.unit$="Oe";
+wks.col3.lname$="Moment"; wks.col3.unit$="emu";
+wks.col4.lname$="MT VSM warming H=1000.0 Oe"; wks.col4.unit$="emu/g";
+win -a MPMSData;
+page.active=2;
+layer.name$="C002";
+impASC fname:="%(mpmsRoot$)/csv/C002.csv" options.ImpMode:=0 options.Names.AutoNames:=0 options.Names.FNameToBk:=0 options.Names.FNameToSht:=0 options.Sparklines:=0;
+layer.name$="C002";
+if(wks.nCols!=4) { type "Import failed for C002. Check the selected package folder."; break 1; }
+wks.col1.lname$="Temperature"; wks.col1.unit$="K";
+wks.col2.lname$="Magnetic Field"; wks.col2.unit$="Oe";
+wks.col3.lname$="Moment"; wks.col3.unit$="emu";
+wks.col4.lname$="MT VSM cooling H=1000.0 Oe"; wks.col4.unit$="emu/g";
+win -a MPMSData;
+page.active=3;
+layer.name$="C003";
+impASC fname:="%(mpmsRoot$)/csv/C003.csv" options.ImpMode:=0 options.Names.AutoNames:=0 options.Names.FNameToBk:=0 options.Names.FNameToSht:=0 options.Sparklines:=0;
+layer.name$="C003";
+if(wks.nCols!=4) { type "Import failed for C003. Check the selected package folder."; break 1; }
+wks.col1.lname$="Temperature"; wks.col1.unit$="K";
+wks.col2.lname$="Magnetic Field"; wks.col2.unit$="Oe";
+wks.col3.lname$="Moment"; wks.col3.unit$="emu";
+wks.col4.lname$="MH DC T=5.00 K loop C003"; wks.col4.unit$="emu/g";
+type "Imported 3 measurement segments. Creating graphs...";
+plotxy iy:=[MPMSData]C001!(1,4) plot:=202 color:=color(36,88,166) ogl:=[<new template:=line name:=P001>];
+set %C -z 3;
+page.longname$="MT VSM warming H=1000.0 Oe";
+label -xb "Temperature (K)";
+label -yl "Magnetization (emu/g)";
+layer -a;
+plotxy iy:=[MPMSData]C002!(1,4) plot:=202 color:=color(36,88,166) ogl:=[<new template:=line name:=P002>];
+set %C -z 3;
+page.longname$="MT VSM cooling H=1000.0 Oe";
+label -xb "Temperature (K)";
+label -yl "Magnetization (emu/g)";
+layer -a;
+plotxy iy:=[MPMSData]C003!(2,4) plot:=202 color:=color(36,88,166) ogl:=[<new template:=line name:=P003>];
+set %C -z 3;
+page.longname$="MH DC T=5.00 K loop C003";
+label -xb "Magnetic Field (Oe)";
+label -yl "Magnetization (emu/g)";
+layer -a;
+plotxy iy:=[MPMSData]C001!(1,4) plot:=200 color:=color(37,43,184) ogl:=[<new template:=line name:=G001>];
+plotxy iy:=[MPMSData]C002!(1,4) plot:=200 color:=color(184,37,37) ogl:=[G001]1!;
+page.longname$="MT VSM overview";
+label -xb "Temperature (K)";
+label -yl "Magnetization (emu/g)";
+layer -a;
+legend -r;
+legend.text$="\l(1) C001 warming%(CRLF)\l(2) C002 cooling";
+legend.fsize=11;
+legend.background=0;
+plotxy iy:=[MPMSData]C003!(2,4) plot:=200 color:=color(37,43,184) ogl:=[<new template:=line name:=G002>];
+page.longname$="MH_loop DC overview";
+label -xb "Magnetic Field (Oe)";
+label -yl "Magnetization (emu/g)";
+layer -a;
+legend -r;
+legend.text$="\l(1) C003 5.00 K";
+legend.fsize=11;
+legend.background=0;
+pe_save fname:=mpmsTarget$;
+type "MPMS import and plotting complete. Saved origin_result.opju in the data package folder.";

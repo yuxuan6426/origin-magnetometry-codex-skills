@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "reviewed",
+  "items": [
+    {
+      "finding": "references/processing.md absolute_path matches",
+      "handling": "The three matches are public HTTPS reference URLs, not host filesystem paths.",
+      "evidence": "static_review"
+    },
+    {
+      "finding": "scripts/mpms_export.py absolute_path example",
+      "handling": "The D: folder is an explicitly user-substituted example in generated instructions; the pipeline derives all real inputs from current CLI arguments.",
+      "evidence": "static_review"
+    },
+    {
+      "finding": "dynamic subprocess and desktop dependency",
+      "handling": "Repository root scripts create an isolated Python/Origin process, per-run authenticated handshake and owned-session PID proof; delivery requirements classify runtime, host, configure and input resources.",
+      "evidence": "observed_run"
+    }
+  ]
+}

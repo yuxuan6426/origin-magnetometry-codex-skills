@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "curves": [
+    {
+      "id": "C001",
+      "rows": 15,
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "max_absolute_error": 0
+    },
+    {
+      "id": "C002",
+      "rows": 15,
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "max_absolute_error": 1.3552527156068805e-20
+    },
+    {
+      "id": "C003",
+      "rows": 11,
+      "columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "max_absolute_error": 0
+    }
+  ],
+  "graphs": [
+    {
+      "name": "P001",
+      "plots": 1,
+      "category": "MT"
+    },
+    {
+      "name": "P002",
+      "plots": 1,
+      "category": "MT"
+    },
+    {
+      "name": "P003",
+      "plots": 1,
+      "category": "MH_loop"
+    },
+    {
+      "name": "G001",
+      "plots": 2,
+      "category": "MT"
+    },
+    {
+      "name": "G002",
+      "plots": 1,
+      "category": "MH_loop"
+    }
+  ],
+  "exports": [
+    {
+      "format": "png",
+      "count": 5
+    },
+    {
+      "format": "pdf",
+      "count": 5
+    }
+  ],
+  "runtime": {
+    "origin_version": 10.300180000000001,
+    "python": "3.13.9",
+    "platform": "win32"
+  },
+  "project_saved_reopened": true,
+  "protection_guards": "passed",
+  "project_bytes": 101192
+}

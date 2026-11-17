@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "name": "origin-mpms-import",
+  "version": "1.0.0",
+  "files": [
+    "agents/openai.yaml",
+    "references/en/workflow.md",
+    "references/mpms3-profile.json",
+    "references/processing.md",
+    "references/zh-CN/workflow.md",
+    "scripts/mpms_core.py",
+    "scripts/mpms_export.py",
+    "scripts/prepare_mpms.py",
+    "SKILL.md"
+  ],
+  "requirements": [
+    {
+      "id": "complete-repository",
+      "kind": "host",
+      "handling": "Keep this skill inside the complete repository/plugin, including root scripts, cases and third_party. A folder-only skill export provides conversion helpers but not the repository-owned Origin pipeline."
+    },
+    {
+      "id": "python-runtime",
+      "kind": "rebuild",
+      "handling": "Run the repository scripts/bootstrap.ps1 with Python 3.13.9 on Windows x64; requirements-win64.lock.txt pins the validated native environment. Conversion-only uses requirements.txt."
+    },
+    {
+      "id": "origin-desktop",
+      "kind": "host",
+      "handling": "Provide licensed, activated Origin/OriginPro. Native validation is measured on OriginPro 2026 10.30018; doctor never connects to it."
+    },
+    {
+      "id": "origin-mcp",
+      "kind": "bundle",
+      "handling": "The complete repository includes third_party/origin-mcp at ddab4420ccc7d17c056285b3b75191b1b81e48e5 with upstream MIT/NOTICE and a byte-level provenance manifest."
+    },
+    {
+      "id": "input-and-mass",
+      "kind": "input",
+      "handling": "Supply an MPMS3 measurement DAT and explicitly confirmed sample mass in mg, or raw emu. Named cases use their catalog settings."
+    },
+    {
+      "id": "owned-session",
+      "kind": "configure",
+      "handling": "The adapter generates a private per-run loopback endpoint and authenticated handshake; no shared session or token is used."
+    },
+    {
+      "id": "other-origin-versions",
+      "kind": "unsupported",
+      "handling": "Origin 2018-2025, non-Windows native plotting, independent machines and clean operating systems have not been hardware validated."
+    }
+  ]
+}

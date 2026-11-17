@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source_file": "measurement.dat",
+  "source_sha256": "04eb4c13a20c3789a4caaec9aec8c761c6c80adea4f06c079b954e70350eefe5",
+  "source_encoding": "utf-8-sig",
+  "record_count": 41,
+  "input_columns": 6,
+  "sample_mass_mg": 2.0,
+  "dc_moment_source": "fixed",
+  "normalization": "moment_emu / sample_mass_mg * 1000",
+  "curves": [
+    {
+      "id": "C001",
+      "label": "MT VSM warming H=1000.0 Oe",
+      "category": "MT",
+      "mode": "VSM",
+      "direction": "warming",
+      "points": 15,
+      "first_record": 1,
+      "last_record": 15,
+      "first_physical_line": 5,
+      "last_physical_line": 19,
+      "temperature_median_K": 16.0,
+      "temperature_range_K": [
+        2.0,
+        30.0
+      ],
+      "field_range_Oe": [
+        1000.0,
+        1000.0
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C001.csv",
+      "worksheet": "C001"
+    },
+    {
+      "id": "C002",
+      "label": "MT VSM cooling H=1000.0 Oe",
+      "category": "MT",
+      "mode": "VSM",
+      "direction": "cooling",
+      "points": 15,
+      "first_record": 16,
+      "last_record": 30,
+      "first_physical_line": 20,
+      "last_physical_line": 34,
+      "temperature_median_K": 16.0,
+      "temperature_range_K": [
+        2.0,
+        30.0
+      ],
+      "field_range_Oe": [
+        1000.0,
+        1000.0
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C002.csv",
+      "worksheet": "C002"
+    },
+    {
+      "id": "C003",
+      "label": "MH DC T=5.00 K loop C003",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 11,
+      "first_record": 31,
+      "last_record": 41,
+      "first_physical_line": 35,
+      "last_physical_line": 45,
+      "temperature_median_K": 5.0,
+      "temperature_range_K": [
+        5.0,
+        5.0
+      ],
+      "field_range_Oe": [
+        -10000.0,
+        10000.0
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C003.csv",
+      "worksheet": "C003"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+name: Conversion and source integrity
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  conversion:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python scripts/reproduce.py --case all --output runs/ci --conversion-only

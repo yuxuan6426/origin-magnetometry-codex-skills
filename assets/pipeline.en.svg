@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730" role="img" aria-labelledby="title desc">
+<title id="title">From measurements to native figures</title>
+<desc id="desc">Local processing · Row provenance · Independent checks. DAT to Python data packages, independent audit, dedicated Origin session, OPJU and figure exports.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#6b879e" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="730" rx="24" fill="#f5f8fb"/>
+<g font-family="Segoe UI,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="45" y="50" font-size="30" font-weight="700" fill="#15304b">From measurements to native figures</text>
+<text x="45" y="80" font-size="18" fill="#506a80">Local processing · Row provenance · Independent checks</text>
+<path d="M465,175 L535,175" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M745,240 L745,300" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M535,365 L465,365" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M255,430 L255,490" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M465,555 L535,555" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="110" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="127" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="67" y="142" font-size="16" font-weight="700" fill="#235eaa">01</text>
+<text x="107" y="144" font-size="21" font-weight="700" fill="#15304b">Measurement or teaching input</text>
+<text x="67" y="182" font-size="18" fill="#506a80">DAT + confirmed sample mass</text>
+<text x="67" y="211" font-size="18" fill="#506a80">Synthetic input is labeled</text>
+<rect x="535" y="110" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="127" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="557" y="142" font-size="16" font-weight="700" fill="#235eaa">02</text>
+<text x="597" y="144" font-size="21" font-weight="700" fill="#15304b">Parse and segment</text>
+<text x="557" y="182" font-size="18" fill="#506a80">Acquisition order + moment source</text>
+<text x="557" y="211" font-size="18" fill="#506a80">Modes, temperatures and sweeps</text>
+<rect x="535" y="300" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="317" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="557" y="332" font-size="16" font-weight="700" fill="#235eaa">03</text>
+<text x="597" y="334" font-size="21" font-weight="700" fill="#15304b">Traceable data package</text>
+<text x="557" y="372" font-size="18" fill="#506a80">XLSX · CSV · native OGS</text>
+<text x="557" y="401" font-size="18" fill="#506a80">Raw + normalized values + rows</text>
+<rect x="45" y="300" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="317" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="67" y="332" font-size="16" font-weight="700" fill="#087f80">04</text>
+<text x="107" y="334" font-size="21" font-weight="700" fill="#15304b">Independent numerical audit</text>
+<text x="67" y="372" font-size="18" fill="#506a80">Parse input and check saved values</text>
+<text x="67" y="401" font-size="18" fill="#506a80">Units and complete record coverage</text>
+<rect x="45" y="490" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="507" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="67" y="522" font-size="16" font-weight="700" fill="#087f80">05</text>
+<text x="107" y="524" font-size="21" font-weight="700" fill="#15304b">Dedicated Origin instance</text>
+<text x="67" y="562" font-size="18" fill="#506a80">Owned session + private handshake</text>
+<text x="67" y="591" font-size="18" fill="#506a80">Native import, plots and layout</text>
+<rect x="535" y="490" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="507" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="557" y="522" font-size="16" font-weight="700" fill="#087f80">06</text>
+<text x="597" y="524" font-size="21" font-weight="700" fill="#15304b">Native project and figures</text>
+<text x="557" y="562" font-size="18" fill="#506a80">Save/reopen OPJU + MCP readback</text>
+<text x="557" y="591" font-size="18" fill="#506a80">PNG · PDF · validation summary</text>
+<line x1="45" y1="655" x2="955" y2="655" stroke="#d4e0e9"/>
+<text x="45" y="692" font-size="18" fill="#506a80">Pinned MCP source snapshot  +  Verifiable evidence for each run</text>
+</g></svg>

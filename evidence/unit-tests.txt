@@ -1,0 +1,10 @@
+test_all_case_exports_independent_audit (test_pipeline.PipelineTests.test_all_case_exports_independent_audit) ... ok
+test_header_encoding_and_invalid_records (test_pipeline.PipelineTests.test_header_encoding_and_invalid_records) ... ok
+test_missing_mass_and_existing_destination (test_pipeline.PipelineTests.test_missing_mass_and_existing_destination) ... ok
+test_raw_mass_and_explicit_coverage (test_pipeline.PipelineTests.test_raw_mass_and_explicit_coverage) ... ok
+test_unowned_endpoint_is_rejected_before_any_connection (test_pipeline.PipelineTests.test_unowned_endpoint_is_rejected_before_any_connection) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.737s
+
+OK

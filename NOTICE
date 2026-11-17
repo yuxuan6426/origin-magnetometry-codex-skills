@@ -1,0 +1,18 @@
+Origin Magnetometry Codex Skills
+Copyright (c) 2026 yuxuan6426
+
+This repository includes an unmodified source snapshot of origin-mcp:
+  Upstream: https://github.com/Ge-Shun/origin-mcp
+  Commit: ddab4420ccc7d17c056285b3b75191b1b81e48e5
+  Tree: 16431318ec8829deedb0452f7f460d4c52c5c10e
+  Copyright (c) 2026 Ge-Shun
+  License: MIT
+  Location: third_party/origin-mcp/
+
+See third_party/origin-mcp/LICENSE and third_party/origin-mcp/NOTICE for the
+upstream license and notices, including attribution for its palette sources.
+The repository's own automation adapter is maintained separately from that snapshot.
+
+Measurement data and scientific outputs have their own CC BY 4.0 terms in
+DATA-LICENSE. Origin and OriginPro are products of OriginLab Corporation;
+their software and licenses are not included in this repository.

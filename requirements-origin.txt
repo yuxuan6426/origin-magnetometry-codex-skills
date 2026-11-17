@@ -1,0 +1,5 @@
+-r requirements.txt
+originpro==1.1.15
+OriginExt==1.2.6; sys_platform == "win32"
+pywin32==312; sys_platform == "win32"
+-e ./third_party/origin-mcp

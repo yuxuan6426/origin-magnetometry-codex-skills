@@ -1,0 +1,4 @@
+interface:
+  display_name: "Origin Magnetometry"
+  short_description: "Reproduce MPMS3 DAT data as traceable tables, native Origin projects and figures"
+  default_prompt: "Use $origin-mpms-import to process the supplied MPMS3 DAT with confirmed sample mass, run independent checks, and generate a native Origin project with PNG/PDF exports."

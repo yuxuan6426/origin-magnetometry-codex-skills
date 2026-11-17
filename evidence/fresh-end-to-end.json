@@ -1,0 +1,1175 @@
+{
+  "status": "passed",
+  "mode": "end_to_end",
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "win32"
+  },
+  "cases": [
+    {
+      "case": "synthetic",
+      "conversion": {
+        "status": "passed",
+        "records": 41,
+        "curves": 3,
+        "max_absolute_error": {
+          "csv": 0.0,
+          "per_curve.xlsx": 5.551115123125783e-17,
+          "wide.xlsx": 5.551115123125783e-17
+        },
+        "source_sha256": "04eb4c13a20c3789a4caaec9aec8c761c6c80adea4f06c079b954e70350eefe5"
+      },
+      "origin": {
+        "status": "passed",
+        "curves": [
+          {
+            "id": "C001",
+            "rows": 15,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C002",
+            "rows": 15,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 1.3552527156068805e-20
+          },
+          {
+            "id": "C003",
+            "rows": 11,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          }
+        ],
+        "graphs": [
+          {
+            "name": "P001",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P002",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P003",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G001",
+            "plots": 2,
+            "category": "MT"
+          },
+          {
+            "name": "G002",
+            "plots": 1,
+            "category": "MH_loop"
+          }
+        ],
+        "exports": [
+          {
+            "format": "png",
+            "count": 5
+          },
+          {
+            "format": "pdf",
+            "count": 5
+          }
+        ],
+        "runtime": {
+          "origin_version": 10.300180000000001,
+          "python": "3.13.9",
+          "platform": "win32"
+        },
+        "project_saved_reopened": true,
+        "protection_guards": "passed",
+        "project_bytes": 101192
+      }
+    },
+    {
+      "case": "real-0p5mg",
+      "conversion": {
+        "status": "passed",
+        "records": 1809,
+        "curves": 27,
+        "max_absolute_error": {
+          "csv": 0.0,
+          "per_curve.xlsx": 7.105427357601002e-15,
+          "wide.xlsx": 7.105427357601002e-15
+        },
+        "source_sha256": "72933e0ab0b11e8672afce503fc72a7290a60d6145141df30e70d2af4fee7240"
+      },
+      "origin": {
+        "status": "passed",
+        "curves": [
+          {
+            "id": "C001",
+            "rows": 300,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 1.3552527156068805e-20
+          },
+          {
+            "id": "C002",
+            "rows": 298,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 1.3552527156068805e-20
+          },
+          {
+            "id": "C003",
+            "rows": 290,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C004",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C005",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C006",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C007",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C008",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C009",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C010",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C011",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C012",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C013",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C014",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C015",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C016",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C017",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C018",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C019",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C020",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C021",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C022",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 3.3881317890172014e-21
+          },
+          {
+            "id": "C023",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C024",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 3.3881317890172014e-21
+          },
+          {
+            "id": "C025",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C026",
+            "rows": 33,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C027",
+            "rows": 162,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 1.6940658945086007e-21
+          }
+        ],
+        "graphs": [
+          {
+            "name": "P001",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P002",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P003",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P004",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P005",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P006",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P007",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P008",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P009",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P010",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P011",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P012",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P013",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P014",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P015",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P016",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P017",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P018",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P019",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P020",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P021",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P022",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P023",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P024",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P025",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P026",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P027",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G001",
+            "plots": 2,
+            "category": "MT"
+          },
+          {
+            "name": "G002",
+            "plots": 2,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G003",
+            "plots": 23,
+            "category": "MH_initial"
+          }
+        ],
+        "exports": [
+          {
+            "format": "png",
+            "count": 30
+          },
+          {
+            "format": "pdf",
+            "count": 30
+          }
+        ],
+        "runtime": {
+          "origin_version": 10.300180000000001,
+          "python": "3.13.9",
+          "platform": "win32"
+        },
+        "project_saved_reopened": true,
+        "protection_guards": "passed",
+        "project_bytes": 534578
+      }
+    },
+    {
+      "case": "real-24mg",
+      "conversion": {
+        "status": "passed",
+        "records": 4242,
+        "curves": 32,
+        "max_absolute_error": {
+          "csv": 0.0,
+          "per_curve.xlsx": 7.105427357601002e-15,
+          "wide.xlsx": 7.105427357601002e-15
+        },
+        "source_sha256": "47618bab56b31c936b25489918e03737a6cc462243622706a4b16132c28c2e06"
+      },
+      "origin": {
+        "status": "passed",
+        "curves": [
+          {
+            "id": "C001",
+            "rows": 351,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C002",
+            "rows": 351,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C003",
+            "rows": 306,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C004",
+            "rows": 265,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C005",
+            "rows": 266,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C006",
+            "rows": 129,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C007",
+            "rows": 302,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C008",
+            "rows": 266,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C009",
+            "rows": 266,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C010",
+            "rows": 266,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C011",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C012",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C013",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C014",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C015",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C016",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C017",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C018",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C019",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C020",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C021",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C022",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C023",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C024",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C025",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C026",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C027",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C028",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C029",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C030",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C031",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C032",
+            "rows": 67,
+            "columns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "max_absolute_error": 0
+          }
+        ],
+        "graphs": [
+          {
+            "name": "P001",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P002",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P003",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P004",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P005",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P006",
+            "plots": 1,
+            "category": "MH_partial"
+          },
+          {
+            "name": "P007",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P008",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P009",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P010",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "P011",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P012",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P013",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P014",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P015",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P016",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P017",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P018",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P019",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P020",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P021",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P022",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P023",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P024",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P025",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P026",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P027",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P028",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P029",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P030",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P031",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "P032",
+            "plots": 1,
+            "category": "MH_initial"
+          },
+          {
+            "name": "G001",
+            "plots": 2,
+            "category": "MT"
+          },
+          {
+            "name": "G002",
+            "plots": 2,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G003",
+            "plots": 5,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G004",
+            "plots": 1,
+            "category": "MH_partial"
+          },
+          {
+            "name": "G005",
+            "plots": 22,
+            "category": "MH_initial"
+          }
+        ],
+        "exports": [
+          {
+            "format": "png",
+            "count": 37
+          },
+          {
+            "format": "pdf",
+            "count": 37
+          }
+        ],
+        "runtime": {
+          "origin_version": 10.300180000000001,
+          "python": "3.13.9",
+          "platform": "win32"
+        },
+        "project_saved_reopened": true,
+        "protection_guards": "passed",
+        "project_bytes": 699467
+      }
+    }
+  ],
+  "session_protection": {
+    "preexisting_processes_preserved": true,
+    "preexisting_window_titles_unchanged": true,
+    "preexisting_windows_observed": 15,
+    "owned_adapter_exited": true
+  }
+}

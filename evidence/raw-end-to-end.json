@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "mode": "end_to_end",
+  "runtime": {
+    "python": "3.13.9",
+    "platform": "win32"
+  },
+  "cases": [
+    {
+      "case": "custom",
+      "conversion": {
+        "status": "passed",
+        "records": 41,
+        "curves": 3,
+        "max_absolute_error": {
+          "csv": 0.0,
+          "per_curve.xlsx": 5.421010862427522e-20,
+          "wide.xlsx": 5.421010862427522e-20
+        },
+        "source_sha256": "04eb4c13a20c3789a4caaec9aec8c761c6c80adea4f06c079b954e70350eefe5"
+      },
+      "origin": {
+        "status": "passed",
+        "curves": [
+          {
+            "id": "C001",
+            "rows": 15,
+            "columns": [
+              0,
+              1,
+              2
+            ],
+            "max_absolute_error": 0
+          },
+          {
+            "id": "C002",
+            "rows": 15,
+            "columns": [
+              0,
+              1,
+              2
+            ],
+            "max_absolute_error": 1.3552527156068805e-20
+          },
+          {
+            "id": "C003",
+            "rows": 11,
+            "columns": [
+              0,
+              1,
+              2
+            ],
+            "max_absolute_error": 0
+          }
+        ],
+        "graphs": [
+          {
+            "name": "P001",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P002",
+            "plots": 1,
+            "category": "MT"
+          },
+          {
+            "name": "P003",
+            "plots": 1,
+            "category": "MH_loop"
+          },
+          {
+            "name": "G001",
+            "plots": 2,
+            "category": "MT"
+          },
+          {
+            "name": "G002",
+            "plots": 1,
+            "category": "MH_loop"
+          }
+        ],
+        "exports": [
+          {
+            "format": "png",
+            "count": 5
+          },
+          {
+            "format": "pdf",
+            "count": 5
+          }
+        ],
+        "runtime": {
+          "origin_version": 10.300180000000001,
+          "python": "3.13.9",
+          "platform": "win32"
+        },
+        "project_saved_reopened": true,
+        "protection_guards": "passed",
+        "project_bytes": 101417
+      }
+    }
+  ],
+  "session_protection": {
+    "preexisting_processes_preserved": true,
+    "preexisting_window_titles_unchanged": true,
+    "preexisting_windows_observed": 15,
+    "owned_adapter_exited": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "identity": "Gallery of native Origin exports; a result slideshow, not a UI recording",
+  "source_export_date": "2026-11-18",
+  "width": 1000,
+  "height": 840,
+  "duration_ms_per_frame": 3000,
+  "loop": true,
+  "sources": [
+    {
+      "frame": 1,
+      "file": "real-0p5mg-mt.png",
+      "sha256": "24374b03860cf1fffab7aeb7d65279ef62c143931b6e192858b088a8ad7c8ceb",
+      "caption": "0.5 mg · MT 升温 / warming"
+    },
+    {
+      "frame": 2,
+      "file": "real-0p5mg-mh.png",
+      "sha256": "f0a79ac88819f4d9be500660d956fd33518722b87853c1aec81def13f32497cd",
+      "caption": "0.5 mg · 3 K DC 回线 / loop"
+    },
+    {
+      "frame": 3,
+      "file": "real-0p5mg-multitemperature.png",
+      "sha256": "3caca746e543565a47fb1c84192ccdf802761f6820f7329aec6cf1ed4a9daf22",
+      "caption": "0.5 mg · 多温度 / multiple temperatures"
+    },
+    {
+      "frame": 4,
+      "file": "real-24mg-multitemperature.png",
+      "sha256": "d56c00f5a9049c0bb291c901079b703aeb01f833fced45d37e264fc2bfb55134",
+      "caption": "24 mg · 多温度 / multiple temperatures"
+    }
+  ],
+  "gallery_sha256": "57f36da4581ae07bd37e4be673e19d3b8362c6687ccb54e433dcfa8c2a082628",
+  "bytes": 271610,
+  "license": "CC-BY-4.0"
+}

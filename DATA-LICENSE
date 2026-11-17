@@ -1,0 +1,28 @@
+Data and generated scientific artifacts / 数据与生成的科学产物
+
+Copyright (c) 2026 yuxuan6426
+
+The authorized measurement DAT files, generated teaching data, and the tables,
+Origin projects and scientific figures distributed in cases/ and assets/ are
+licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).
+
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt these materials, including commercially, subject to
+the license conditions. Provide appropriate credit, link to the license, and
+indicate whether changes were made. Do not imply endorsement by the authors.
+
+Suggested attribution:
+  yuxuan6426, Origin Magnetometry Codex Skills, case <case-id>,
+  https://github.com/yuxuan6426/origin-magnetometry-codex-skills,
+  CC BY 4.0. Include the source file SHA-256 or repository revision when useful.
+
+本仓库 cases/ 和 assets/ 中获授权公开的测量 DAT、生成的教学数据，以及随仓库
+分发的表格、Origin 工程和科学图形，采用知识共享署名 4.0 国际许可协议。
+使用时保留适当署名、许可链接及修改说明；上述许可链接指向完整适用条款。
+
+Software, scripts and skill instructions are covered by LICENSE (MIT).
+Third-party material retains the notices and licenses identified in NOTICE.
+Origin/OriginPro software itself is not distributed under either repository license.

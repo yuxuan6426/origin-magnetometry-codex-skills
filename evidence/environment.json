@@ -1,0 +1,25 @@
+{
+  "python": "3.13.9",
+  "platform": "win32",
+  "packages": {
+    "openpyxl": "3.1.5",
+    "Pillow": "12.0.0",
+    "pypdf": "6.7.0",
+    "mcp": "1.30.0",
+    "originpro": "1.1.15",
+    "OriginExt": "1.2.6",
+    "pywin32": "312"
+  },
+  "modules": {
+    "openpyxl": true,
+    "PIL": true,
+    "pypdf": true,
+    "mcp": true,
+    "originpro": true,
+    "OriginExt": true
+  },
+  "upstream_commit": "ddab4420ccc7d17c056285b3b75191b1b81e48e5",
+  "source_integrity": "passed",
+  "changed_source_files": [],
+  "origin_connection": "not_attempted"
+}

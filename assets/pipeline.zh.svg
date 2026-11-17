@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730" role="img" aria-labelledby="title desc">
+<title id="title">从测量记录到原生图形</title>
+<desc id="desc">本机处理 · 逐行追溯 · 独立核对. DAT to Python data packages, independent audit, dedicated Origin session, OPJU and figure exports.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#6b879e" stroke-width="1.5"/></marker></defs>
+<rect width="1000" height="730" rx="24" fill="#f5f8fb"/>
+<g font-family="Segoe UI,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="45" y="50" font-size="30" font-weight="700" fill="#15304b">从测量记录到原生图形</text>
+<text x="45" y="80" font-size="18" fill="#506a80">本机处理 · 逐行追溯 · 独立核对</text>
+<path d="M465,175 L535,175" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M745,240 L745,300" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M535,365 L465,365" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M255,430 L255,490" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M465,555 L535,555" fill="none" stroke="#6b879e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="110" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="127" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="67" y="142" font-size="16" font-weight="700" fill="#235eaa">01</text>
+<text x="107" y="144" font-size="21" font-weight="700" fill="#15304b">实测或教学输入</text>
+<text x="67" y="182" font-size="18" fill="#506a80">DAT + 确认的样品质量</text>
+<text x="67" y="211" font-size="18" fill="#506a80">合成示例有明确身份</text>
+<rect x="535" y="110" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="127" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="557" y="142" font-size="16" font-weight="700" fill="#235eaa">02</text>
+<text x="597" y="144" font-size="21" font-weight="700" fill="#15304b">解析与连续分段</text>
+<text x="557" y="182" font-size="18" fill="#506a80">保留采集顺序与磁矩源列</text>
+<text x="557" y="211" font-size="18" fill="#506a80">按模式、温度与扫场整理</text>
+<rect x="535" y="300" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="317" width="5" height="96" rx="2" fill="#235eaa"/>
+<text x="557" y="332" font-size="16" font-weight="700" fill="#235eaa">03</text>
+<text x="597" y="334" font-size="21" font-weight="700" fill="#15304b">可追溯的数据包</text>
+<text x="557" y="372" font-size="18" fill="#506a80">XLSX · CSV · 原生 OGS</text>
+<text x="557" y="401" font-size="18" fill="#506a80">原始磁矩 + 归一化值 + 源行</text>
+<rect x="45" y="300" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="317" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="67" y="332" font-size="16" font-weight="700" fill="#087f80">04</text>
+<text x="107" y="334" font-size="21" font-weight="700" fill="#15304b">独立数值核对</text>
+<text x="67" y="372" font-size="18" fill="#506a80">直接解析输入并检查保存值</text>
+<text x="67" y="401" font-size="18" fill="#506a80">核对单位与完整记录覆盖</text>
+<rect x="45" y="490" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="45" y="507" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="67" y="522" font-size="16" font-weight="700" fill="#087f80">05</text>
+<text x="107" y="524" font-size="21" font-weight="700" fill="#15304b">专属 Origin 实例</text>
+<text x="67" y="562" font-size="18" fill="#506a80">核对实例拥有权与独立握手</text>
+<text x="67" y="591" font-size="18" fill="#506a80">本机原生导入、绘图与排版</text>
+<rect x="535" y="490" width="420" height="130" rx="15" fill="white" stroke="#d4e0e9" stroke-width="1.5"/>
+<rect x="535" y="507" width="5" height="96" rx="2" fill="#087f80"/>
+<text x="557" y="522" font-size="16" font-weight="700" fill="#087f80">06</text>
+<text x="597" y="524" font-size="21" font-weight="700" fill="#15304b">原生工程与图形</text>
+<text x="557" y="562" font-size="18" fill="#506a80">OPJU 保存重开 + MCP 回读</text>
+<text x="557" y="591" font-size="18" fill="#506a80">PNG · PDF · 运行验收摘要</text>
+<line x1="45" y1="655" x2="955" y2="655" stroke="#d4e0e9"/>
+<text x="45" y="692" font-size="18" fill="#506a80">固定的 MCP 源码快照  +  每次运行的可核对证据</text>
+</g></svg>

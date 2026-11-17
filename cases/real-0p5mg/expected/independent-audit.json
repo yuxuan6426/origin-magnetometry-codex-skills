@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "records": 1809,
+  "curves": 27,
+  "max_absolute_error": {
+    "csv": 0.0,
+    "per_curve.xlsx": 7.105427357601002e-15,
+    "wide.xlsx": 7.105427357601002e-15
+  },
+  "source_sha256": "72933e0ab0b11e8672afce503fc72a7290a60d6145141df30e70d2af4fee7240"
+}

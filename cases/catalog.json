@@ -1,0 +1,31 @@
+[
+  {
+    "id": "synthetic",
+    "input": "cases/synthetic/input/measurement.dat",
+    "mass_mg": 2.0,
+    "dc_source": "fixed",
+    "expected": {
+      "records": 41
+    }
+  },
+  {
+    "id": "real-0p5mg",
+    "input": "cases/real-0p5mg/input/measurement.dat",
+    "mass_mg": 0.5,
+    "dc_source": "fixed",
+    "expected": {
+      "records": 1809,
+      "curves": 27
+    }
+  },
+  {
+    "id": "real-24mg",
+    "input": "cases/real-24mg/input/measurement.dat",
+    "mass_mg": 24.0,
+    "dc_source": "fixed",
+    "expected": {
+      "records": 4242,
+      "curves": 32
+    }
+  }
+]

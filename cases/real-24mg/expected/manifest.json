@@ -1,0 +1,815 @@
+{
+  "schema_version": 1,
+  "source_file": "measurement.dat",
+  "source_sha256": "47618bab56b31c936b25489918e03737a6cc462243622706a4b16132c28c2e06",
+  "source_encoding": "utf-8-sig",
+  "record_count": 4242,
+  "input_columns": 69,
+  "sample_mass_mg": 24.0,
+  "dc_moment_source": "fixed",
+  "normalization": "moment_emu / sample_mass_mg * 1000",
+  "curves": [
+    {
+      "id": "C001",
+      "label": "MT VSM warming H=1000.0 Oe",
+      "category": "MT",
+      "mode": "VSM",
+      "direction": "warming",
+      "points": 351,
+      "first_record": 1,
+      "last_record": 351,
+      "first_physical_line": 28,
+      "last_physical_line": 378,
+      "temperature_median_K": 176.002960205078,
+      "temperature_range_K": [
+        1.9991272687912,
+        350.0
+      ],
+      "field_range_Oe": [
+        1000.00567626953,
+        1000.00567626953
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C001.csv",
+      "worksheet": "C001"
+    },
+    {
+      "id": "C002",
+      "label": "MT VSM cooling H=1000.0 Oe",
+      "category": "MT",
+      "mode": "VSM",
+      "direction": "cooling",
+      "points": 351,
+      "first_record": 352,
+      "last_record": 702,
+      "first_physical_line": 379,
+      "last_physical_line": 729,
+      "temperature_median_K": 176.978134155273,
+      "temperature_range_K": [
+        2.00057077407837,
+        349.999603271484
+      ],
+      "field_range_Oe": [
+        1000.00567626953,
+        1000.00567626953
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C002.csv",
+      "worksheet": "C002"
+    },
+    {
+      "id": "C003",
+      "label": "MH VSM T=2.00 K loop C003",
+      "category": "MH_loop",
+      "mode": "VSM",
+      "direction": "",
+      "points": 306,
+      "first_record": 703,
+      "last_record": 1008,
+      "first_physical_line": 730,
+      "last_physical_line": 1035,
+      "temperature_median_K": 1.9999241232872,
+      "temperature_range_K": [
+        1.99600809812546,
+        2.00626540184021
+      ],
+      "field_range_Oe": [
+        -68000.2890625,
+        70000.421875
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C003.csv",
+      "worksheet": "C003"
+    },
+    {
+      "id": "C004",
+      "label": "MH VSM T=50.00 K loop C004",
+      "category": "MH_loop",
+      "mode": "VSM",
+      "direction": "",
+      "points": 265,
+      "first_record": 1009,
+      "last_record": 1273,
+      "first_physical_line": 1036,
+      "last_physical_line": 1300,
+      "temperature_median_K": 49.9997978210449,
+      "temperature_range_K": [
+        49.9964752197266,
+        50.002592086792
+      ],
+      "field_range_Oe": [
+        -70000.3125,
+        70000.3515625
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [],
+      "csv": "csv/C004.csv",
+      "worksheet": "C004"
+    },
+    {
+      "id": "C005",
+      "label": "MH DC T=50.00 K loop C005",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 266,
+      "first_record": 1274,
+      "last_record": 1539,
+      "first_physical_line": 1301,
+      "last_physical_line": 1566,
+      "temperature_median_K": 50.0004577636719,
+      "temperature_range_K": [
+        49.9534683227539,
+        50.0118312835693
+      ],
+      "field_range_Oe": [
+        -70000.25,
+        70000.359375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C005.csv",
+      "worksheet": "C005"
+    },
+    {
+      "id": "C006",
+      "label": "MH VSM T=100.00 K partial C006",
+      "category": "MH_partial",
+      "mode": "VSM",
+      "direction": "",
+      "points": 129,
+      "first_record": 1540,
+      "last_record": 1668,
+      "first_physical_line": 1567,
+      "last_physical_line": 1695,
+      "temperature_median_K": 100.00316619873,
+      "temperature_range_K": [
+        99.9958877563477,
+        100.042221069336
+      ],
+      "field_range_Oe": [
+        -62000.3046875,
+        70000.03125
+      ],
+      "moment_source": "Moment (emu)",
+      "warnings": [
+        "one_way_or_partial_sweep"
+      ],
+      "csv": "csv/C006.csv",
+      "worksheet": "C006"
+    },
+    {
+      "id": "C007",
+      "label": "MH DC T=2.00 K loop C007",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 302,
+      "first_record": 1669,
+      "last_record": 1970,
+      "first_physical_line": 1696,
+      "last_physical_line": 1997,
+      "temperature_median_K": 2.0000063776969954,
+      "temperature_range_K": [
+        1.99588358402252,
+        2.00107264518738
+      ],
+      "field_range_Oe": [
+        -70000.421875,
+        70000.5078125
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C007.csv",
+      "worksheet": "C007"
+    },
+    {
+      "id": "C008",
+      "label": "MH DC T=100.03 K loop C008",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 266,
+      "first_record": 1971,
+      "last_record": 2236,
+      "first_physical_line": 1998,
+      "last_physical_line": 2263,
+      "temperature_median_K": 100.02751922607399,
+      "temperature_range_K": [
+        99.997917175293,
+        100.133609771729
+      ],
+      "field_range_Oe": [
+        -70000.421875,
+        70000.1640625
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C008.csv",
+      "worksheet": "C008"
+    },
+    {
+      "id": "C009",
+      "label": "MH DC T=200.10 K loop C009",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 266,
+      "first_record": 2237,
+      "last_record": 2502,
+      "first_physical_line": 2264,
+      "last_physical_line": 2529,
+      "temperature_median_K": 200.1047706604005,
+      "temperature_range_K": [
+        199.990730285645,
+        200.232032775879
+      ],
+      "field_range_Oe": [
+        -70000.484375,
+        70000.21875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C009.csv",
+      "worksheet": "C009"
+    },
+    {
+      "id": "C010",
+      "label": "MH DC T=299.86 K loop C010",
+      "category": "MH_loop",
+      "mode": "DC",
+      "direction": "",
+      "points": 266,
+      "first_record": 2503,
+      "last_record": 2768,
+      "first_physical_line": 2530,
+      "last_physical_line": 2795,
+      "temperature_median_K": 299.860107421875,
+      "temperature_range_K": [
+        299.708145141602,
+        300.215087890625
+      ],
+      "field_range_Oe": [
+        -70000.4765625,
+        70000.5
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C010.csv",
+      "worksheet": "C010"
+    },
+    {
+      "id": "C011",
+      "label": "MH DC T=210.28 K initial C011",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 2769,
+      "last_record": 2835,
+      "first_physical_line": 2796,
+      "last_physical_line": 2862,
+      "temperature_median_K": 210.276260375977,
+      "temperature_range_K": [
+        210.006301879883,
+        210.350151062012
+      ],
+      "field_range_Oe": [
+        -0.268225520849228,
+        70000.390625
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C011.csv",
+      "worksheet": "C011"
+    },
+    {
+      "id": "C012",
+      "label": "MH DC T=211.11 K initial C012",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 2836,
+      "last_record": 2902,
+      "first_physical_line": 2863,
+      "last_physical_line": 2929,
+      "temperature_median_K": 211.108421325684,
+      "temperature_range_K": [
+        210.988952636719,
+        211.272529602051
+      ],
+      "field_range_Oe": [
+        -0.390146195888519,
+        70000.375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C012.csv",
+      "worksheet": "C012"
+    },
+    {
+      "id": "C013",
+      "label": "MH DC T=212.11 K initial C013",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 2903,
+      "last_record": 2969,
+      "first_physical_line": 2930,
+      "last_physical_line": 2996,
+      "temperature_median_K": 212.106544494629,
+      "temperature_range_K": [
+        211.986763000488,
+        212.185356140137
+      ],
+      "field_range_Oe": [
+        -0.219457238912582,
+        70000.2421875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C013.csv",
+      "worksheet": "C013"
+    },
+    {
+      "id": "C014",
+      "label": "MH DC T=213.11 K initial C014",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 2970,
+      "last_record": 3036,
+      "first_physical_line": 2997,
+      "last_physical_line": 3063,
+      "temperature_median_K": 213.108360290527,
+      "temperature_range_K": [
+        212.988357543945,
+        213.217788696289
+      ],
+      "field_range_Oe": [
+        -0.0487682744860649,
+        70000.2734375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C014.csv",
+      "worksheet": "C014"
+    },
+    {
+      "id": "C015",
+      "label": "MH DC T=214.11 K initial C015",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3037,
+      "last_record": 3103,
+      "first_physical_line": 3064,
+      "last_physical_line": 3130,
+      "temperature_median_K": 214.107620239258,
+      "temperature_range_K": [
+        213.986885070801,
+        214.289329528809
+      ],
+      "field_range_Oe": [
+        -0.304801732301712,
+        70000.4765625
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C015.csv",
+      "worksheet": "C015"
+    },
+    {
+      "id": "C016",
+      "label": "MH DC T=215.11 K initial C016",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3104,
+      "last_record": 3170,
+      "first_physical_line": 3131,
+      "last_physical_line": 3197,
+      "temperature_median_K": 215.105651855469,
+      "temperature_range_K": [
+        214.986717224121,
+        215.228439331055
+      ],
+      "field_range_Oe": [
+        -0.402338296175003,
+        70000.265625
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C016.csv",
+      "worksheet": "C016"
+    },
+    {
+      "id": "C017",
+      "label": "MH DC T=216.10 K initial C017",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3171,
+      "last_record": 3237,
+      "first_physical_line": 3198,
+      "last_physical_line": 3264,
+      "temperature_median_K": 216.101005554199,
+      "temperature_range_K": [
+        215.987426757813,
+        216.24048614502
+      ],
+      "field_range_Oe": [
+        -0.158496901392937,
+        70000.3046875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C017.csv",
+      "worksheet": "C017"
+    },
+    {
+      "id": "C018",
+      "label": "MH DC T=217.10 K initial C018",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3238,
+      "last_record": 3304,
+      "first_physical_line": 3265,
+      "last_physical_line": 3331,
+      "temperature_median_K": 217.103073120117,
+      "temperature_range_K": [
+        216.986541748047,
+        217.247978210449
+      ],
+      "field_range_Oe": [
+        0.0487682744860649,
+        70000.1171875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C018.csv",
+      "worksheet": "C018"
+    },
+    {
+      "id": "C019",
+      "label": "MH DC T=218.11 K initial C019",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3305,
+      "last_record": 3371,
+      "first_physical_line": 3332,
+      "last_physical_line": 3398,
+      "temperature_median_K": 218.107093811035,
+      "temperature_range_K": [
+        217.98787689209,
+        218.301734924316
+      ],
+      "field_range_Oe": [
+        -0.402338296175003,
+        70000.21875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C019.csv",
+      "worksheet": "C019"
+    },
+    {
+      "id": "C020",
+      "label": "MH DC T=219.11 K initial C020",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3372,
+      "last_record": 3438,
+      "first_physical_line": 3399,
+      "last_physical_line": 3465,
+      "temperature_median_K": 219.109260559082,
+      "temperature_range_K": [
+        218.988433837891,
+        219.255081176758
+      ],
+      "field_range_Oe": [
+        0.170688971877098,
+        70000.2421875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C020.csv",
+      "worksheet": "C020"
+    },
+    {
+      "id": "C021",
+      "label": "MH DC T=220.11 K initial C021",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3439,
+      "last_record": 3505,
+      "first_physical_line": 3466,
+      "last_physical_line": 3532,
+      "temperature_median_K": 220.108474731445,
+      "temperature_range_K": [
+        219.987480163574,
+        220.228507995605
+      ],
+      "field_range_Oe": [
+        0.207265168428421,
+        70000.375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C021.csv",
+      "worksheet": "C021"
+    },
+    {
+      "id": "C022",
+      "label": "MH DC T=221.11 K initial C022",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3506,
+      "last_record": 3572,
+      "first_physical_line": 3533,
+      "last_physical_line": 3599,
+      "temperature_median_K": 221.113204956055,
+      "temperature_range_K": [
+        220.98902130127,
+        221.17399597168
+      ],
+      "field_range_Oe": [
+        0.0365762077271938,
+        70000.3046875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C022.csv",
+      "worksheet": "C022"
+    },
+    {
+      "id": "C023",
+      "label": "MH DC T=222.12 K initial C023",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3573,
+      "last_record": 3639,
+      "first_physical_line": 3600,
+      "last_physical_line": 3666,
+      "temperature_median_K": 222.116149902344,
+      "temperature_range_K": [
+        221.991058349609,
+        222.234031677246
+      ],
+      "field_range_Oe": [
+        0.207265168428421,
+        70000.4609375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C023.csv",
+      "worksheet": "C023"
+    },
+    {
+      "id": "C024",
+      "label": "MH DC T=223.12 K initial C024",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3640,
+      "last_record": 3706,
+      "first_physical_line": 3667,
+      "last_physical_line": 3733,
+      "temperature_median_K": 223.12198638916,
+      "temperature_range_K": [
+        222.988571166992,
+        223.224716186523
+      ],
+      "field_range_Oe": [
+        0.268225520849228,
+        70000.3125
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C024.csv",
+      "worksheet": "C024"
+    },
+    {
+      "id": "C025",
+      "label": "MH DC T=224.11 K initial C025",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3707,
+      "last_record": 3773,
+      "first_physical_line": 3734,
+      "last_physical_line": 3800,
+      "temperature_median_K": 224.106315612793,
+      "temperature_range_K": [
+        223.988830566406,
+        224.246757507324
+      ],
+      "field_range_Oe": [
+        0.121920689940453,
+        70000.375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C025.csv",
+      "worksheet": "C025"
+    },
+    {
+      "id": "C026",
+      "label": "MH DC T=225.11 K initial C026",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3774,
+      "last_record": 3840,
+      "first_physical_line": 3801,
+      "last_physical_line": 3867,
+      "temperature_median_K": 225.111061096191,
+      "temperature_range_K": [
+        224.988388061523,
+        225.329605102539
+      ],
+      "field_range_Oe": [
+        0.0975365489721298,
+        70000.1875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C026.csv",
+      "worksheet": "C026"
+    },
+    {
+      "id": "C027",
+      "label": "MH DC T=226.12 K initial C027",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3841,
+      "last_record": 3907,
+      "first_physical_line": 3868,
+      "last_physical_line": 3934,
+      "temperature_median_K": 226.122871398926,
+      "temperature_range_K": [
+        225.987396240234,
+        226.199722290039
+      ],
+      "field_range_Oe": [
+        0.0609603449702263,
+        70000.078125
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C027.csv",
+      "worksheet": "C027"
+    },
+    {
+      "id": "C028",
+      "label": "MH DC T=227.11 K initial C028",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3908,
+      "last_record": 3974,
+      "first_physical_line": 3935,
+      "last_physical_line": 4001,
+      "temperature_median_K": 227.108993530273,
+      "temperature_range_K": [
+        226.987907409668,
+        227.278167724609
+      ],
+      "field_range_Oe": [
+        0.426722407341003,
+        70000.3359375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C028.csv",
+      "worksheet": "C028"
+    },
+    {
+      "id": "C029",
+      "label": "MH DC T=228.11 K initial C029",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 3975,
+      "last_record": 4041,
+      "first_physical_line": 4002,
+      "last_physical_line": 4068,
+      "temperature_median_K": 228.113945007324,
+      "temperature_range_K": [
+        227.988319396973,
+        228.258644104004
+      ],
+      "field_range_Oe": [
+        0.231649324297905,
+        70000.2421875
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C029.csv",
+      "worksheet": "C029"
+    },
+    {
+      "id": "C030",
+      "label": "MH DC T=229.12 K initial C030",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 4042,
+      "last_record": 4108,
+      "first_physical_line": 4069,
+      "last_physical_line": 4135,
+      "temperature_median_K": 229.119529724121,
+      "temperature_range_K": [
+        228.987815856934,
+        229.281616210938
+      ],
+      "field_range_Oe": [
+        0.085344485938549,
+        70000.3984375
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C030.csv",
+      "worksheet": "C030"
+    },
+    {
+      "id": "C031",
+      "label": "MH DC T=230.11 K initial C031",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 4109,
+      "last_record": 4175,
+      "first_physical_line": 4136,
+      "last_physical_line": 4202,
+      "temperature_median_K": 230.112785339355,
+      "temperature_range_K": [
+        229.987487792969,
+        230.201515197754
+      ],
+      "field_range_Oe": [
+        0.414530336856842,
+        70000.390625
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C031.csv",
+      "worksheet": "C031"
+    },
+    {
+      "id": "C032",
+      "label": "MH DC T=231.11 K initial C032",
+      "category": "MH_initial",
+      "mode": "DC",
+      "direction": "",
+      "points": 67,
+      "first_record": 4176,
+      "last_record": 4242,
+      "first_physical_line": 4203,
+      "last_physical_line": 4269,
+      "temperature_median_K": 231.114143371582,
+      "temperature_range_K": [
+        230.987937927246,
+        231.305274963379
+      ],
+      "field_range_Oe": [
+        0.170688971877098,
+        70000.5078125
+      ],
+      "moment_source": "DC Moment Fixed Ctr (emu)",
+      "warnings": [],
+      "csv": "csv/C032.csv",
+      "worksheet": "C032"
+    }
+  ]
+}

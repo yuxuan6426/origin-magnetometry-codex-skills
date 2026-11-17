@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "origin-mpms-import",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "files": [
     "agents/openai.yaml",
     "references/en/workflow.md",

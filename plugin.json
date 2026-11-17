@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "origin-magnetometry-codex-skills",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "Reproduce MPMS3 magnetometry processing and native Origin figures with traceable data, a pinned MCP source and independent checks.",
   "author": {
     "name": "yuxuan6426",
@@ -9,14 +9,22 @@
   },
   "repository": "https://github.com/yuxuan6426/origin-magnetometry-codex-skills",
   "license": "MIT",
-  "keywords": ["magnetometry", "origin", "mpms", "reproducibility", "codex"],
+  "keywords": [
+    "magnetometry",
+    "origin",
+    "mpms",
+    "reproducibility",
+    "codex"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Origin Magnetometry",
         "shortDescription": "Traceable MPMS3 data to native Origin projects and figures",
         "developerName": "yuxuan6426",
-        "defaultPrompt": ["Use $origin-mpms-import to reproduce a magnetometry case from DAT to an Origin project and exported figures."]
+        "defaultPrompt": [
+          "Use $origin-mpms-import to reproduce a magnetometry case from DAT to an Origin project and exported figures."
+        ]
       }
     }
   }

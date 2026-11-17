@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "origin-magnetometry-codex-skills",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -1385,8 +1385,8 @@
     },
     {
       "path": "plugin.json",
-      "bytes": 956,
-      "sha256": "5b3f8fcaf5196d087b9e98bcd03b18df0605f975dfb7a8a0692e275032c04ecb"
+      "bytes": 1000,
+      "sha256": "43fd23598158996e58ff68e8d26c57372cfcc2334d339b9530da8760c59af798"
     },
     {
       "path": "README.en.md",
@@ -1456,7 +1456,7 @@
     {
       "path": "skills/origin-mpms-import/delivery.json",
       "bytes": 2125,
-      "sha256": "aa3590f5c8407b53e8011339f30cfff2a12b35d2eb02750de42857ba16bd6200"
+      "sha256": "40aa5b572d02d56cdd77bfcfd79fb36172bae0c0c11e88cea47154b2cc052852"
     },
     {
       "path": "skills/origin-mpms-import/references/en/workflow.md",
